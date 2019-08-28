@@ -106,6 +106,7 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: black;
 }
 
 .wrapper {
@@ -124,12 +125,19 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: black;
   height: 300px;
 }
 
+#p1, #p2, #p3 {
+  font-size: .6em;
+  line-height: 1.3em;
+}
 
-
+#p1, #p2 {
+  border-right: 2px solid grey;
+  padding-right: 30px;
+}
 
 /* ==========================================================================
    Helper classes
